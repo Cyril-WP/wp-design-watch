@@ -5,3 +5,5 @@ runs/
 *.cookies.json
 .env*
 .DS_Store
+
+.scratch/

@@ -103,7 +103,7 @@ The board shows what share of routes and screens were graded in the last seven d
 
 ## How it grades
 
-Four layers, cheapest first. A finding needs a box on the screenshot or it does not count.
+Four layers, cheapest first. A finding needs a box on the screenshot or it does not count. Why Claude is the judge and which open-source tools sit around it: `docs/research/judge-model.md` and `docs/adr/0001-claude-judges-open-source-around-it.md`.
 
 1. **Detector (no AI).** Computed styles and the accessibility tree: fonts outside the design file, off-palette colours, text under 12px, contrast, targets under 24px outside running text, unnamed controls, images without alt, sideways overflow. Rules come from impeccable's detector and the measurable rows of ui-ux-pro-max's UX guidelines.
 2. **Judge (vision).** Claude Code subagents read each screenshot with the impeccable critique and audit rubric (Nielsen heuristics out of 40, P0 to P3), shown a few of the team's past verdicts as examples. Two passes; only findings both passes see are kept.
