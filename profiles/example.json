@@ -1,0 +1,13 @@
+{
+  "project": "example",
+  "base": "https://example.com",
+  "houseFonts": ["montserrat", "open sans"],
+  "viewports": {
+    "phone": { "width": 390, "height": 844, "scale": 2, "mobile": true },
+    "desktop": { "width": 1440, "height": 900, "scale": 1, "mobile": false }
+  },
+  "routes": [
+    { "name": "home", "path": "/" },
+    { "name": "about", "path": "/about" }
+  ]
+}

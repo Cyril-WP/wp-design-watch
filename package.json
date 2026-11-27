@@ -1,0 +1,14 @@
+{
+  "name": "wp-design-watch",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Watches the design of every page after each deploy and grades it with the team's own taste.",
+  "license": "UNLICENSED",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "spike": "node spikes/capture.cjs"
+  },
+  "dependencies": {
+    "playwright-core": "1.64.0"
+  }
+}

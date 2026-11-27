@@ -1,0 +1,7 @@
+node_modules/
+runs/
+*.png
+*.jpg
+*.cookies.json
+.env*
+.DS_Store
